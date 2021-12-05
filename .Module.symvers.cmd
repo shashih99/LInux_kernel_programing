@@ -1,0 +1,1 @@
+cmd_/home/shashi/shashi/perfectvips/workspace/Linux_kernel_programming/Module.symvers := sed 's/ko$$/o/' /home/shashi/shashi/perfectvips/workspace/Linux_kernel_programming/modules.order | scripts/mod/modpost -m -a   -o /home/shashi/shashi/perfectvips/workspace/Linux_kernel_programming/Module.symvers -e -i Module.symvers   -T -

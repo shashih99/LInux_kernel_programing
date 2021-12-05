@@ -1,0 +1,1 @@
+cmd_/home/shashi/shashi/perfectvips/workspace/Linux_kernel_programming/hello.mod := { echo  /home/shashi/shashi/perfectvips/workspace/Linux_kernel_programming/hello.o;  echo; } > /home/shashi/shashi/perfectvips/workspace/Linux_kernel_programming/hello.mod

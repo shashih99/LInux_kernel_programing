@@ -1,0 +1,1 @@
+cmd_/home/shashi/shashi/perfectvips/workspace/Linux_kernel_programming/hello.ko := ld -r -m elf_x86_64  --build-id=sha1  -T scripts/module.lds -o /home/shashi/shashi/perfectvips/workspace/Linux_kernel_programming/hello.ko /home/shashi/shashi/perfectvips/workspace/Linux_kernel_programming/hello.o /home/shashi/shashi/perfectvips/workspace/Linux_kernel_programming/hello.mod.o;  true

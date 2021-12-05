@@ -1,0 +1,1 @@
+cmd_/home/shashi/shashi/perfectvips/workspace/Linux_kernel_programming/modules.order := {   echo /home/shashi/shashi/perfectvips/workspace/Linux_kernel_programming/hello.ko; :; } | awk '!x[$$0]++' - > /home/shashi/shashi/perfectvips/workspace/Linux_kernel_programming/modules.order
