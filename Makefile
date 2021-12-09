@@ -10,7 +10,10 @@
 #clean:
 #	rm -rf $(wildcard *.o *.ko *.mod.* .c* .t* test Module.symvers *.order *.markers)
 
-obj-m = hello.o
+obj-m = module_param.o
+#obj-m =export_macro.o
+#export-objs :=export_macro.o
+#obj-m +=depmod.o
 all:
 	make -C /lib/modules/$(shell uname -r)/build/ M=$(shell pwd) modules
 clean:
