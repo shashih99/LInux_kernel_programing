@@ -1,4 +1,5 @@
-obj-m =character_driver_skel.o
+obj-m =character_driver_skel.o 
+obj-m += character_driver_udev.o
 #TARGET=application
 
 #CC_COMPILER=gcc

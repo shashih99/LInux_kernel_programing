@@ -31,6 +31,7 @@ static int char_dev_open(struct inode*inode,struct file*file)
 static int char_dev_release(struct inode *inode,struct file *file)
 {
 	inuse = 0;
+	printk(KERN_INFO "\nClosing the device %s\n",CHAR_DEV_NAME);
 	return SUCCESS;
 }
 
