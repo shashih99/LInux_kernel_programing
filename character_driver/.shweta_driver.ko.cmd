@@ -1,0 +1,1 @@
+cmd_/home/shashi/shashi/drivers/character_driver/shweta_driver.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/shashi/shashi/drivers/character_driver/shweta_driver.ko /home/shashi/shashi/drivers/character_driver/shweta_driver.o /home/shashi/shashi/drivers/character_driver/shweta_driver.mod.o ;  true
