@@ -128,5 +128,5 @@ module_init(ofcd_init);
 module_exit(ofcd_exit);
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Anil Kumar Pugalia <email@sarika-pugs.com>");
+MODULE_AUTHOR("Shashidhar Hegde");
 MODULE_DESCRIPTION("Our First Character Driver");
