@@ -82,9 +82,11 @@ static int do_request(struct request *rq, unsigned int *nr_bytes)
 
         if (rq_data_dir(rq) == WRITE) {
             /* Copy data to the buffer in to required position */
+            printk("Writing to disk..\n");
             memcpy(dev->data + pos, b_buf, b_len);
         } else {
             /* Read data from the buffer's position */
+            printk("READING from disk\n");
             memcpy(b_buf, dev->data + pos, b_len);
         }
 
