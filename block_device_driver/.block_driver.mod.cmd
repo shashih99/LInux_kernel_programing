@@ -1,0 +1,1 @@
+cmd_/home/shashi/shashi/drivers/LInux_kernel_programing/block_device_driver/block_driver.mod := { echo  /home/shashi/shashi/drivers/LInux_kernel_programing/block_device_driver/block_driver.o;  echo; } > /home/shashi/shashi/drivers/LInux_kernel_programing/block_device_driver/block_driver.mod
