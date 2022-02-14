@@ -1,4 +1,4 @@
-/*
+﻿/*
 *Techinque one is using semaphore 
 *
 */
@@ -18,7 +18,7 @@
 #include <linux/interrupt.h> 
 #include <asm/io.h>
 
-#define   IRQ_NO          11  
+#define   IRQ_NO          1  
 
 #define   SUCCESS         0
 #define   MAX_LENGTH      4000
@@ -30,6 +30,10 @@ static char *char_device_buf;
 unsigned int i=0;
 static irqreturn_t irq_handler(int irq,void *dev_id)
 {
+	if(in_irq())
+	{
+		printk (KERN_INFO "In interrupt Handler\n");
+	}
     printk(KERN_INFO "keyboard: Interrupt occurred %d\n",i);
         i++;
     return IRQ_HANDLED;
