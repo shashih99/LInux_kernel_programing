@@ -1,0 +1,1 @@
+Look into document bottom_halves.odt for detials
